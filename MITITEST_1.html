@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MINITEST</title>
+</head>
+<body>
+<!--**Bài 3**-->
+<!--<p>Nhap gia tri a: </p>-->
+<!--<input type="number" id="number1">-->
+<!--<p>Nhap gia tri b: </p>-->
+<!--<input type="number" id="number2"><br>-->
+<!--<button onclick="add()" style="margin-top: 10px">Tính</button>-->
+<!--<h1 id="result"></h1>-->
+
+<!--**Bai 4a**-->
+<!--<p>Nhap vao do dai canh hinh vuong</p>-->
+<!--<input type="number" id="hv">-->
+<!--<button onclick="tinh()">Tinh</button>-->
+<!--<p id="result"></p>-->
+
+<!--**Bai 4b**-->
+<!--<p>Nhap gia tri a: </p>-->
+<!--<input type="number" id="number1">-->
+<!--<p>Nhap gia tri b: </p>-->
+<!--<input type="number" id="number2"><br>-->
+<!--<button onclick="tinh()" style="margin-top: 10px">Tính</button>-->
+<!--<p id="result"></p>-->
+
+</body>
+<script>
+    /// Bài 1:
+    // Các câu lệnh để hiển thị hộp thoại: alert(), prompt(), confirm().
+    // Cú pháp:
+    // alert("NGUYEN DAT THANG")
+
+    /// Bài 2: Câu lệnh prompt().
+    // let a = prompt("Nhap gia tri: ")
+    // let b = a*a;
+    // alert(a + " binh phuong = " + b)
+
+    /// Bai 3: Các bước:
+    // B1: Tạo 2 thẻ input() để nhập vào 2 giá trị a, b.
+    // B2: Tạo nút bấm để gọi hàm từ JS
+    // B3: Trong thẻ JS tạo dùng document.getElementById().value để lấy ra 2 giá trị a, b từ thẻ input.
+    // B3: Gán biến tính giá trị a*b sau đó dùng document.getElementById().innerHTML để thay đổi giá trị hiện thị trong thẻ h1.
+    // function add() {
+    //     let a = document.getElementById("number1").value
+    //     let b = document.getElementById("number2").value
+    //     let s = a*b
+    //     document.getElementById("result").innerHTML = "Tich a va b la: " + s
+    // }
+
+    /// Bai 4a:
+    // function tinh() {
+    //     let a = document.getElementById("hv").value
+    //     let cv = 4*a
+    //     let area = Math.pow(a,2)
+    //     document.getElementById("result").innerHTML = "Chu vi là: " + cv + "m" +
+    //     "<br>" + "Diện tích là: " + area + "m<sup>2</sup>" + "<br>"
+    // }
+
+    /// Bai 4b:
+    // function tinh() {
+    //     let a = document.getElementById("number1").value
+    //     let b = document.getElementById("number2").value
+    //     let s1 = Math.pow(a, 2)
+    //     let s2 = Math.pow(a, b)
+    //     document.getElementById("result").innerHTML = "Ket qua " + a + "<sup>2</sup> la: " + s1 +
+    //         "<br>" + "Ket qua " + a + "<sup>b</sup> la: " + s2
+    // }
+
+</script>
+</html>
